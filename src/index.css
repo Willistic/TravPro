@@ -2,13 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .search {
-  width: 100%;
-  position: center;
+.search {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-} */
+.container {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.App input {
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid;
+  padding-left: 10px;
+}
